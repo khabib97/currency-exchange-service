@@ -122,7 +122,7 @@ spec:
         app: currency-exchange
     spec:
       containers:
-      - image: khabib97/currency-exchange-service:0.0.2-SNAPSHOT
+      - image: khabib97/currency-exchange-service:0.0.3-SNAPSHOT
         imagePullPolicy: IfNotPresent
         name: currency-exchange-service
         resources: {}
