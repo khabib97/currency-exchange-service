@@ -125,6 +125,9 @@ spec:
       - image: khabib97/currency-exchange-service:0.0.3-SNAPSHOT
         imagePullPolicy: IfNotPresent
         name: currency-exchange-service
+        env:
+          - name: CURRENCY_EXCHANGE_URI
+            value: http://currency-exchange
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
