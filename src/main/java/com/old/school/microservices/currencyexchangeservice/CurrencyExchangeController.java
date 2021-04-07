@@ -34,7 +34,7 @@ public class CurrencyExchangeController {
 		
 		//change-kubernetes
 		String host = environment.getProperty("HOSTNAME");
-		String version = "v2";
+		String version = "v3";
 		currencyExchange.setEnvironment(port + " " + version + " " + host);
 		return currencyExchange;
 	}
